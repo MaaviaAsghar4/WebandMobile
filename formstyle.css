@@ -1,0 +1,35 @@
+.top {
+    text-align: center;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+   font-size: 24px; 
+   text-decoration: underline;
+   color: blue;
+}
+
+.form{
+   background-color: blue;
+   color: white;
+}
+
+.sub{
+    background-color: blue;
+    text-align: center;  
+}
+
+label {
+    width:180px;
+    clear:left;
+    text-align:right;
+    padding-right:40px;
+} 
+
+label {
+    float:left;
+}
+

@@ -1,0 +1,36 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-style: bold;
+    text-align: center;
+    color: palevioletred;
+    border: 2px solid purple;
+    border-style: outset;
+    border-radius: 5px;
+    padding: 10px auto;
+    margin: 20px auto;
+    font-size: 48px;
+}
+
+button {
+    border: none;
+    color: peachpuff;
+    background-color: purple;
+    padding: 10px auto;
+    margin: 0px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+button:hover {
+    color: salmon;
+}
+
+p {
+    background-color: pink;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
