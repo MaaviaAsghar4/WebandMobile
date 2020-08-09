@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="./quiz.css">
+</head>
+<body onload="displayQuestion(0)">
+    <div>
+        <div id="home" class="container">
+            <div class="flexing"></div>
+            <h1>Quiz Application</h1>
+            <button class="btn" onclick="play()">Play</button>
+        </div>
+    </div>
+    
+    <div id="game" class="play fadeOut">
+       <div id="game2">
+           <h2>Quiz</h2>
+           <h2 id="question">This is question 1</h2>
+              <div class="choice-container">
+                 <p class="choice-prefix">A</p>
+                 <p class="choice-text" id="Choice0" data-number="1" onclick="classActive(this)">Choice 1</p> 
+               </div>
+             <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text" id="Choice0" data-number="2" onclick="classActive(this)">Choice 1</p> 
+             </div>
+            <div class="choice-container">
+                 <p class="choice-prefix">C</p>
+                 <p class="choice-text" id="Choice0" data-number="3" onclick="classActive(this)">Choice 1</p> 
+           </div>
+           <div class="choice-container">
+                 <p class="choice-prefix">D</p>
+                 <p class="choice-text" id="Choice0" data-number="4" onclick="classActive(this)">Choice 4</p> 
+           </div>
+           <div>
+               <button class="btn btn2" id="next" onclick="nextQues()">NEXT</button>
+           </div>
+       </div> 
+    </div>
+
+    <div id="result" class="fadeOut play2">
+        <h1 id="gaming">Your Total Score is</h1>
+        <div>
+            <button class="btn btn2" id="playAgain" onclick="playAgain()">Play Again</button>
+        </div>
+    </div>
+
+
+    <script src="./quiz.js"></script>
+</body>
+</html>
