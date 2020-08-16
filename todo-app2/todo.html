@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="./todo.css">
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyB8nsiJ7j1MztTWaZBVP7BOsmcFiqr9AD8",
+    authDomain: "maaviaportfolio.firebaseapp.com",
+    databaseURL: "https://maaviaportfolio.firebaseio.com",
+    projectId: "maaviaportfolio",
+    storageBucket: "maaviaportfolio.appspot.com",
+    messagingSenderId: "135996589464",
+    appId: "1:135996589464:web:d1a4c359be0ab5726dd7ed",
+    measurementId: "G-JLR0LRYPGQ"
+  };
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</head>
+<body>
+    <div class="container">
+        <div class="body">
+            <div class="trademark">
+                <h1>Keep It Simple!!</h1>
+            </div>
+            <div class="todo-body">
+                <input type="text" name="Todo" id="todo" placeholder="Enter ToDo" required>
+                <button onclick="addTodo()" class="add"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                <button onclick="deleteAll()" class="delete"><i class="fa fa-trash" aria-hidden="true"></i></button>
+            </div>
+            <div class="todo-list">
+                <ul id="todoList" class="todo-ul">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./todo.js"></script>
+</body>
+</html>
