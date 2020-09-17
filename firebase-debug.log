@@ -1,0 +1,17 @@
+[debug] [2020-09-17T18:53:09.514Z] ----------------------------------------------------------------------
+[debug] [2020-09-17T18:53:09.517Z] Command:       /home/maaviasghar4/.nvm/versions/node/v12.18.3/bin/node /usr/local/bin/firebase deploy
+[debug] [2020-09-17T18:53:09.517Z] CLI Version:   8.9.2
+[debug] [2020-09-17T18:53:09.517Z] Platform:      linux
+[debug] [2020-09-17T18:53:09.517Z] Node Version:  v12.18.3
+[debug] [2020-09-17T18:53:09.520Z] Time:          Thu Sep 17 2020 23:53:09 GMT+0500 (Pakistan Standard Time)
+[debug] [2020-09-17T18:53:09.520Z] ----------------------------------------------------------------------
+[debug] [2020-09-17T18:53:09.520Z] 
+[debug] [2020-09-17T18:53:09.532Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-17T18:53:09.533Z] > authorizing via signed-in user
+[debug] [2020-09-17T18:53:09.533Z] [iam] checking project maaviaportfolio for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-09-17T18:53:09.535Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-09-17T18:53:09.535Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-09-17T18:53:11.820Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 17 Sep 2020 18:53:11 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-09-17T18:53:11.832Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/maaviaportfolio:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
